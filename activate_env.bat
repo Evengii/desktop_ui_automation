@@ -1,3 +1,8 @@
 @echo off
-call C:\Users\v-eukladov\desktop_ui_automation\myenv\Scripts\activate
+
+python -m pip install --upgrade pip
+python -m pip install pipenv
+pipenv sync
+pipenv shell
+
 cmd /k
